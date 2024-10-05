@@ -74,7 +74,7 @@ class ManageUsers:
         for room_item in hotel_rooms:
              if room_ID == room_item.room_number and room_item.is_available:
                   if costumer.booked_room is None:
-                       setattr(costumer, booked_room, [])
+                       setattr(costumer, "booked_room", [])
                        costumer.booked_room.append(room_item)
                        room_item.is_available = False
                   
