@@ -1,3 +1,5 @@
+#This is only dummy data to test functions. The sqlite code will be present soon 
+
 from hotel import Hotel
 from hotel import Location
 from user import User
